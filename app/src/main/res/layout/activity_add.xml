@@ -19,11 +19,13 @@
         android:id="@+id/etDefination"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter word"
+        android:hint="Enter meaning"
         android:textSize="20sp"
+        android:gravity="start"
         android:layout_margin="20dp"/>
 
     <Button
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Add word"
